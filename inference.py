@@ -9,7 +9,7 @@ from omegaconf import open_dict
 
 print("Loading model... this might take a minute.")
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model_path = '/home/sriram1o1/au2tex/indicconformer_stt_te_hybrid_rnnt_large.nemo'
+model_path = '/home/sriram1o1/au2tex/models/indicconformer_stt_te_hybrid_rnnt_large.nemo'
 
 # Load the model globally
 model = nemo_asr.models.EncDecCTCModel.restore_from(restore_path=model_path)
