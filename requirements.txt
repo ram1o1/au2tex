@@ -1,6 +1,10 @@
 torch
-torchvision
 torchaudio
 packaging
 huggingface_hub==0.23.2
 gradio
+librosa
+soundfile
+omegaconf
+requests
+tqdm

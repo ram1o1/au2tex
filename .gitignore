@@ -1,5 +1,15 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Dependencies and external repos
 .gradio
-.venv
+.venv/
 NeMo/
+
+# Models
 *.nemo
 models/
